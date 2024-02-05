@@ -28,6 +28,10 @@ describe("${param}", () => {
     expect(fn()).to.equal();
   })
 
+  it("case 3", () => {
+    expect(fn()).to.equal();
+  })
+
 })`
     );
     exec("code " + srcFile);
