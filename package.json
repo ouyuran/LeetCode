@@ -1,0 +1,23 @@
+{
+  "name": "Exam",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "start": "ts-node",
+    "build": "tsc index.ts",
+    "test": "mocha --timeout 20000 --require ts-node/register",
+    "new": "ts-node create.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.13"
+  }
+}
